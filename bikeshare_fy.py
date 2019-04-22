@@ -58,8 +58,6 @@ def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
     """
-
-
     return df
 
 
@@ -78,8 +76,6 @@ def time_stats(df):
     print('Most Common day:', most_common_day)
 
     # TO DO: display the most common start hour
-
-
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
@@ -158,7 +154,6 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
 def main():
     while True:
         city, month, day = get_filters()
@@ -172,7 +167,6 @@ def main():
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
-
 
 if __name__ == "__main__":
 	main()
