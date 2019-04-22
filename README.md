@@ -5,10 +5,10 @@ new_york_city.csv
 washington.csv
 ### Project Title
 Replace the Project Title
-Data collection of bike share in three cities 
+Data collection of bike share in three cities
 ### Description
 Describe what your project is about and what it does
-
+The project is about the bike usage in terms of date and time during the month or year
 ### Files used
 Include the files used
 
